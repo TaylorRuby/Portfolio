@@ -33,7 +33,7 @@ const defaultSEOConfig = {
         height: 900,
       },
     ],
-    site_name: 'aulianza.id',
+    site_name: 'TaylorHargraves',
   },
   twitter: {
     handle: '@handle',

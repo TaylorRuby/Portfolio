@@ -95,13 +95,3 @@ export const SOCIAL_MEDIA: MenuItemProps[] = [
   },
 ];
 
-export const EXTERNAL_LINKS: MenuItemProps[] = [
-  {
-    title: 'Analytics',
-    href: 'https://umami.aulianza.id/share/LK5kiRuosw9pORLa/aulianza.id',
-    icon: <AnalyticsIcon size={iconSize} />,
-    isShow: true,
-    isExternal: true,
-    eventName: 'External Link: Analytics',
-  },
-];
