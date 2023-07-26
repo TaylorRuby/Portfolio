@@ -8,7 +8,6 @@ import { ProjectItemProps } from '@/common/types/projects';
 const ProjectCard = ({
   title,
   link,
-  description,
   image,
   stacks,
   is_featured,
@@ -34,9 +33,6 @@ const ProjectCard = ({
               {title}
             </div>
           </div>
-          <p className='text-neutral-700 dark:text-neutral-400 text-[15px] leading-relaxed'>
-            {description}
-          </p>
           <div className='flex flex-wrap items-center gap-3 pt-2'>
             {stacks?.map((stack: string, index: number) => (
               <div key={index}>

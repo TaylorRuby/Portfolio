@@ -8,7 +8,7 @@ import { CAREERS } from '@/common/constant/careers';
 
 import CareerCard from './CareerCard';
 
-const RESUME_URL = 'https://taylor.vercel.com/resume.pdf';
+const RESUME_URL = 'https://taylorhargraves.netlify.app/Resume.pdf';
 
 const CareerList = () => {
   return (
