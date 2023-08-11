@@ -5,9 +5,9 @@ import Button from '@/common/components/elements/Button';
 
 const CONTACTS = [
   {
-    title: 'taylorhargravesruby@outlook.com',
+    title: 'taylorhargravesruby@gmail.com',
     icon: <EmailIcon size={18} />,
-    link: 'mailto:taylorhargravesruby@outlook.com',
+    link: 'mailto:taylorhargravesruby@gmail.com',
     eventName: 'Contact: Click Email Button',
   }
 ];
