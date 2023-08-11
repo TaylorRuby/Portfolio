@@ -1,6 +1,5 @@
 import { differenceInMonths, differenceInYears, format } from 'date-fns';
 import { BsBuildings as CompanyIcon } from 'react-icons/bs';
-
 import Card from '@/common/components/elements/Card';
 import Image from '@/common/components/elements/Image';
 import { CareerProps } from '@/common/types/careers';
@@ -29,7 +28,7 @@ const CareerCard = ({
   }
 
   return (
-    <Card className='flex items-center gap-5 py-4 px-6 border border-neutral-300 dark:border-neutral-800 dark:bg-neutral-800'>
+    <Card className='flex items-center gap-5 px-6 py-4 border border-neutral-300 dark:border-neutral-800 dark:bg-neutral-800'>
       {logo ? (
         <Image src={logo} width={55} height={55} alt={company} />
       ) : (
@@ -38,7 +37,7 @@ const CareerCard = ({
 
       <div className='space-y-1'>
         <h6>{position}</h6>
-        <div className='text-sm text-neutral-600 dark:text-neutral-400 space-y-2'>
+        <div className='space-y-2 text-sm text-neutral-600 dark:text-neutral-400'>
           <div className='flex items-center gap-1 md:gap-2'>
             <a
               href={link || '#'}
